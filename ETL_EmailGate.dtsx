@@ -11,55 +11,24 @@
   DTS:LocaleID="1049"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{AE3C65E0-2F0D-48D4-AC22-58949FF5FF96}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{7A662625-34F2-4807-874A-081F8EED00B3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Задача потока данных"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Задача потока данных"
-      DTS:DTSID="{E0D710C2-2B16-47EC-A604-DF74190A3E0A}"
-      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:refId="Package\Получить MaxDateTime в DWH"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Получить MaxDateTime в DWH"
+      DTS:DTSID="{E3DBADA0-FC77-46AE-8870-9FD7679FA263}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Задача потока данных"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      DTS:ObjectName="Получить MaxDateTime в DWH"
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
-        <pipeline
-          version="1" />
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Задача потока данных 1"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Задача потока данных"
-      DTS:DTSID="{541FD6E4-B85D-432B-BB37-90ABB2774B8F}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Задача потока данных 1"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1" />
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Задача потока данных 2"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Задача потока данных"
-      DTS:DTSID="{981EB3EB-2040-49A8-A4D5-0221BF8A89A8}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Задача потока данных 2"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1" />
+        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -76,17 +45,9 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="190,42"
-          Id="Package\Задача потока данных"
-          TopLeft="189,53" />
-        <NodeLayout
-          Size="199,42"
-          Id="Package\Задача потока данных 1"
-          TopLeft="405,224" />
-        <NodeLayout
-          Size="199,42"
-          Id="Package\Задача потока данных 2"
-          TopLeft="525,70" />
+          Size="229,42"
+          Id="Package\Получить MaxDateTime в DWH"
+          TopLeft="223,94" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
