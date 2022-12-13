@@ -11,8 +11,8 @@
   DTS:LocaleID="1049"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{867DB495-6E49-4129-973A-D7F98DCEB46A}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{AE3C65E0-2F0D-48D4-AC22-58949FF5FF96}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -47,6 +47,21 @@
           version="1" />
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Задача потока данных 2"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Задача потока данных"
+      DTS:DTSID="{981EB3EB-2040-49A8-A4D5-0221BF8A89A8}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Задача потока данных 2"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -68,6 +83,10 @@
           Size="199,42"
           Id="Package\Задача потока данных 1"
           TopLeft="405,224" />
+        <NodeLayout
+          Size="199,42"
+          Id="Package\Задача потока данных 2"
+          TopLeft="525,70" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
